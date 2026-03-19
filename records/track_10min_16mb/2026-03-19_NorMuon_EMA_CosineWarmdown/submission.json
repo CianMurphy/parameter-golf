@@ -1,0 +1,17 @@
+{
+  "author": "murphyc2",
+  "github_id": "murphyc2",
+  "name": "NorMuon + EMA + Cosine Warmdown",
+  "blurb": "SP-1024 9x512 KV4 with MLP_MULT=3.0 (hidden=1536), seq_len=4096, NorMuon optimizer (adaptive per-row step sizes via second moment), EMA weight averaging (decay=0.999), cosine warmdown schedule, int6 per-row quantization on MLP+attention with fp16 tied embedding passthrough, zstd-22 compression, and sliding window evaluation at stride=64.",
+  "date": "2026-03-19T00:00:00Z",
+  "val_loss": null,
+  "val_bpb": null,
+  "pre_quant_val_loss": null,
+  "pre_quant_val_bpb": null,
+  "step_stop": null,
+  "wallclock_seconds": null,
+  "eval_time_seconds": null,
+  "bytes_total": null,
+  "bytes_model_int6_zstd": null,
+  "bytes_code": 50753
+}
